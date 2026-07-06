@@ -1,1 +1,272 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UbuntuBet.co.za | Premium Domain For Sale</title>
+
+<style>
+:root{
+    --bg:#090909;
+    --bg2:#111111;
+    --gold:#c8a96a;
+    --gold-soft:rgba(200,169,106,.18);
+    --text:#f5f5f5;
+    --muted:#a8a8a8;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    font-family:Georgia,"Times New Roman",serif;
+    background:
+        radial-gradient(circle at 15% 20%, rgba(200,169,106,.10), transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(200,169,106,.07), transparent 45%),
+        linear-gradient(160deg,var(--bg),var(--bg2));
+    color:var(--text);
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Floating ambient glow */
+
+body::before{
+    content:"";
+    position:fixed;
+    width:900px;
+    height:900px;
+    border-radius:50%;
+    background:radial-gradient(circle,var(--gold-soft),transparent 70%);
+    filter:blur(40px);
+    animation:floatGlow 16s ease-in-out infinite;
+    pointer-events:none;
+}
+
+@keyframes floatGlow{
+    0%,100%{
+        transform:translate(-120px,-40px) scale(1);
+    }
+    50%{
+        transform:translate(120px,40px) scale(1.15);
+    }
+}
+
+.card{
+
+    position:relative;
+    width:min(900px,90vw);
+
+    padding:70px 60px;
+
+    text-align:center;
+
+    background:rgba(255,255,255,.025);
+
+    border:1px solid rgba(200,169,106,.20);
+
+    border-radius:24px;
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:
+        0 25px 40px rgba(0,0,0,.65),
+        inset 0 0 0 1px rgba(255,255,255,.02);
+
+    animation:fadeUp 1.3s ease;
+}
+
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:1px;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(35px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.domain{
+
+    font-size:clamp(2rem,4vw,3.5rem);
+
+    letter-spacing:.22em;
+
+    font-weight:300;
+
+    margin-bottom:26px;
+
+    text-transform:lowercase;
+}
+
+.line{
+
+    width:90px;
+
+    height:2px;
+
+    margin:0 auto 36px;
+
+    background:linear-gradient(to right,transparent,var(--gold),transparent);
+
+    animation:grow 1.8s ease;
+}
+
+@keyframes grow{
+
+    from{
+        width:0;
+        opacity:0;
+    }
+
+    to{
+        width:90px;
+        opacity:1;
+    }
+
+}
+
+.message{
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    color:var(--muted);
+
+    font-size:1.25rem;
+
+    line-height:1.9;
+
+    margin-bottom:18px;
+}
+
+.contact{
+
+    margin-top:30px;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    color:#d8d8d8;
+
+    font-size:1rem;
+
+    letter-spacing:.18em;
+
+    text-transform:uppercase;
+}
+
+.email{
+
+    margin-top:16px;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    color:var(--gold);
+
+    font-size:1.45rem;
+
+    letter-spacing:.05em;
+
+    transition:.35s;
+}
+
+.email:hover{
+    color:#e6c98d;
+}
+
+.footer{
+
+    margin-top:45px;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    color:#666;
+
+    font-size:.82rem;
+
+    letter-spacing:.25em;
+
+    text-transform:uppercase;
+}
+
+@media(max-width:700px){
+
+.card{
+    padding:45px 20px;
+}
+
+.domain{
+    letter-spacing:.08em;
+}
+
+.message{
+    font-size:1.05rem;
+}
+
+.email{
+    font-size:1.2rem;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="domain">ubuntubet.co.za</div>
+
+    <div class="line"></div>
+
+    <div class="message">
+        This domain is available for purchase at a reasonable price.
+    </div>
+
+    <div class="message">
+        Serious enquiries are welcome.
+    </div>
+
+    <div class="contact">
+        Contact
+    </div>
+
+    <div class="email">
+        BuyDomains2026@yahoo.com
+    </div>
+
+    <div class="footer">
+        Premium Domain Opportunity
+    </div>
+
+</div>
+
+</body>
+</html>
